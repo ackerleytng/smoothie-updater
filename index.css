@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+#smoothie-wrapper {
+  width: 100%;
+}
+
+#smoothie-display {
+  background-color: black;
+  color: white;
+  font-family: 'Fjalla One';
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1024px;
+  height: 600px;
+  transform-origin: top left;
+}
+
+#smoothie-wrapper p {
+  margin: 0;
+  padding: 0;
+}
+
+#smoothie-wrapper #grabber {
+  font-size: 140pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  transform: scaleY(1.1);
+}
+#smoothie-wrapper #snarky {
+  font-size: 60pt;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
